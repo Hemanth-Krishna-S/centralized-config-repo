@@ -1,0 +1,8 @@
+server:
+  port: 8085  # Topics Service port
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092  # Kafka broker URL
+    admin:
+      client-id: kafka-topics-service
